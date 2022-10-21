@@ -1,0 +1,666 @@
+#my_body{
+    width: 459px;
+     text-align: center;
+     margin-left: 0em;
+ 
+}
+/* header*/
+header{
+     
+    width: auto;
+     
+    
+}
+/*navbar*/
+nav{
+    width: 105%;
+    height: 70%;
+    margin-left: 0em;
+    display: flex;
+  
+}
+ 
+#logo{
+    display: block;
+    margin-left: 10em;
+     
+  
+}
+ #logo img{
+      
+      
+     margin-left: 2em;
+  
+} 
+ 
+  #logo ul{
+     position: absolute;
+     margin-top: 2.9em;
+     margin-left: -19em;
+     width: 28%;
+  
+ } 
+ ul li {
+     width: 130%;
+     margin-left: 3.7em;
+  
+ }
+ nav li a:hover{
+        color: #0000ff;
+        border-top: none;
+        padding-top: 15px;
+         
+     
+ }
+  
+nav li a:hover{
+    color: #0000ff;
+    border-bottom: 2px solid;
+    padding-top: 15px;
+}
+ li a{
+    border-bottom: 2px solid #F2F2F2;
+ }
+  
+ ul li a{
+     
+    position: relative;
+   
+ }
+  .souligner{
+    padding: 1.2em;
+    
+    
+  }
+
+  
+ 
+ 
+ 
+#nav_title{
+    width: auto;
+    margin-top: 5.9em;
+    position: relative;
+    margin-right: 8em;
+  
+}
+  
+#nav_title h2{
+    width: 99%;
+    font-size: 24px;
+    margin-left: 2em; 
+    text-align: left; 
+  
+}
+#nav_title p{
+    font-size: 18px;
+    width: 100%;
+    margin-left: 2.7em;
+    margin-top: 6em;
+    position: absolute;
+    font-weight: 400;
+  
+}
+ /* la de la géolocalisation*/
+ form{
+    width:auto ;
+     
+      
+    
+ }
+  
+ #label{
+    margin-right: 20em;
+    margin-top: -0.1em;
+    width: 70%;
+    height: 107%;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+  
+ }
+  
+ .localisation{
+    width:  5%;
+    height: 48px;
+    margin-right: 21em;
+    margin-top: 4em;
+    border: 2px solid #F2F2F2;
+    border-radius: 10px 1px 1px 10px;
+    background-color: #F2F2F2;
+   
+ }
+ .fa-location-dot{
+    height: 46px;
+    margin-top: 0em;
+    margin-right: 2em;
+    background-color: #F2F2F2;
+    position: relative;
+    
+ }
+ .fa-location-dot::before{
+    margin-left: 0.3em;
+    position: absolute;
+    
+ }
+  
+ .recherche{
+    border-radius: 10px 50px 50px 10px;
+    padding-right: 8px;
+    display: none;  
+   
+ }
+ .recherch{
+    border: none;
+    padding-left: 1.9em;
+    margin-top: -2.5em;
+    display:inherit ;
+        
+          
+ }
+ .recherch i{
+    width: 5.9%;
+    height: 45.5px;
+    padding-top: 1.1em;
+    margin-top: -0.4em;
+    background-color: blue;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    position: absolute;
+    margin-left: 3em;
+      
+ }
+ .recherch i::before{
+     position:absolute;
+     margin-left: -0.5em;
+     margin-top: -0.2em;
+    
+ }
+
+ .filtrer{
+    position: relative;
+     
+ } 
+  
+ #id_filtre{
+    position: absolute;
+    width: 57px;
+    height: 25px;
+    font-size: 16px;
+    margin-top: 0em;
+    margin-left: -11.2em;
+   
+ }
+  
+ .filtre-economique{
+    display: flex;
+    position:relative;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    margin-top: 30px;
+    margin-right: 20em;
+  
+ }
+  
+ .fa-money-bill-wave{
+    position: absolute;
+    margin-left: -1.5em;
+    width: 90%;
+    height: 38px;
+    border-width: 2px 4px;
+    border-radius: 40px 40px 40px 40px;
+     
+ } 
+ .fa-money-bill-wave::before{
+    margin-left:-3em ;
+     
+ }
+ .fa-child-reaching{
+    position: absolute;
+    margin-left: 15em;
+    margin-top: -0em;
+    width: 98%;
+    height: 41px;
+   
+ }
+ .fa-child-reaching::before{
+    margin-left: -4.5em;
+    margin-top: -0.8em;
+    position: absolute;
+     
+ }
+ 
+ .fa-heart{
+    position: absolute;
+    margin-top: 5.8em;
+    margin-left:-1.6em;
+    width: 82%;
+    height: 38px;
+    
+     
+ }
+ .fa-heart::before{
+    margin-left: -1em;
+ }
+ .fa-dog{
+    margin-top: 12em;
+    width: 140%;
+    height: 40px;
+    padding-top: 2em;
+    position: absolute; 
+    margin-left:  -1.1em;
+   
+ }
+ .fa-dog::before{
+    position: absolute;
+    margin-left: -11.9em;
+    margin-top: -2em;
+    
+ }
+ .fa-dog a{
+    display: block;
+    margin-top: -1em;
+    padding-left: 17px;
+     
+ }
+ .filtrer{
+     width: 40%;
+     height: auto;
+     margin-left: 2.5em;
+      
+  
+ }
+  
+ /* la phrase de description*/
+ .phrase-infor{
+    width: 70%;
+    margin-top: 12em;
+    font-size: 15px;
+    margin-right: 7em;
+    text-align: left;
+   
+ }
+  #info {
+      width: 25px;
+      height: 25px;
+      border-radius: 50px;
+      padding: 5px;
+       
+       
+  }
+  .fa-info::before{
+    padding-bottom: 0em;
+    
+  }
+ .fa-circle-info{
+    margin-left: 2.2em;
+   
+ }
+ .paragrahe{
+     
+    margin-left: 12.8em;
+    margin-top: 2.6em;
+   
+ }
+ .prix{
+    margin-left: 20.6em;
+     
+     
+ }
+ .fa-info{
+    margin-right: 1em;
+    
+    
+ }
+
+ /*aside*/
+ aside{
+    width: 99%; 
+    height: 75%;
+    margin-left: 0.2em;
+    margin-top: 2em;
+    
+     
+    
+   
+ }
+ aside h2 {
+    margin-left: 0.6em;
+   
+     
+ }
+ .description_aside1{
+    width: 98%;
+    margin-left: 0.3em;
+     
+    
+ }
+ .description_aside2{
+    width: 98%;
+    margin-left: 0em;
+     
+ }
+ .description_aside3{
+    width: 98%;
+    margin-left: 0em;
+    
+ }
+ .info1 h4{
+    font-size: 16px;
+    margin-right: 2em;
+    text-align: left;
+   
+ }
+ #etoile_populaire i::before {
+     
+     margin-left: 6em;
+      
+ 
+
+ }
+  .description_aside1 i {
+     margin-left: 0.5em;
+     width:9% ;
+    
+
+
+  }
+  .etoile{
+    margin-left: 12.7em;
+    width: 25%;
+    
+   
+    
+
+  }
+  .une_etoile{
+    width: 119%;
+     
+  
+     
+  }
+  
+  
+ .info1 strong {
+     margin-top: 2.5em;
+     margin-right: 2.6em;
+     
+
+
+ }
+ 
+
+ /*hébergement*/
+ #hebergement{
+    width: 106%;
+    margin-top:40em;
+    padding-bottom: 2em;
+    margin-left: 0.3em;
+    background-color: #fff;
+     
+   
+ }
+ #hebergement h2{
+    width: auto;
+    margin-left: 2.5em;
+    margin-top: -0.4em;
+   
+     
+     
+     
+ }
+ 
+ .description1{
+    width: 78%;
+    margin-left: -0.9em;
+    padding-bottom: 9em;
+    border: 1px solid #fff;
+    box-shadow: inset 0 0 2em #F2F2F2, 0 0 2em #D3D3D3;
+    
+     
+ }
+ .id_description img{
+    margin-left: -0.7em;
+ }
+ 
+ 
+.id_description{
+    width: 390px;
+    height: 100px;
+  
+}
+.id_description h4{
+    font-size: 17px;
+    text-align: left;
+    margin-left: 10px;
+   
+}
+.nos_prix{
+     margin-right: 15.8em;
+      
+      
+      
+     
+}
+strong{
+    margin-right: 6em;
+    display: block;
+    margin-top: -1.2em;
+  
+}
+ .important {
+     font-weight: bold;
+     margin-left: 2em;
+      
+
+ }
+.mes_prix{
+    margin-left: 1em;
+    
+     
+}
+ 
+.id_description i{
+     
+    width: 10%;
+    margin-top: -3em;
+  
+}
+.nos_etoiles{
+   width: 50%;
+    margin-left: 1em;
+    margin-top: 3em;
+  
+}
+.une_etoile{
+     width: 117%; 
+     margin-left: 0em;
+     
+ 
+}
+.le_meilleur{
+    width: 41%;
+    margin-left: 1em;
+    margin-top: 3em;
+  
+    
+}
+ 
+ 
+ 
+.id_description img{
+    width: 320px;
+    height: 150px;
+    margin-right: 3em;
+     
+     
+    
+}
+/* la phrase afficher*/
+#afficher{
+    font-size: 16px;
+    margin-top: 2em;
+    margin-left: 3em;
+    
+     
+}
+ 
+
+/*les activités*/
+#activites{
+    width: 108%;
+    display: block;
+    margin-top: -0.9em;
+    padding-bottom: 72em;
+    margin-left: 0.1em;
+     
+   
+     
+}
+#activites h2{
+    width: 80%;
+    font-size: 20px;
+    margin-left: 2.5em;
+  
+}
+#activites p{
+    margin-right: 5em;
+     
+}
+.image_large1{
+     width: 76%;
+     height: 90%;
+     margin-top: 4em;
+     margin-left: 3em;
+ 
+}
+.image_large1 p{
+    margin-left: -1.1em;
+    width: 104.9%;
+    margin-top: -0.6em;
+  
+}
+ 
+.image_large1 img{
+    width: 350px;
+    height: 150px;
+    margin-left: -1.1em;
+    margin-top: 10px;
+     
+     
+}
+.image img{
+    width: 340px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: -0.6em;
+        
+
+}
+ 
+ 
+.image_petite1{
+    width: 80%;
+    height: 45%;
+    margin-top: 0em;
+    margin-left: 3em;
+ 
+}
+.image_petite1 p{
+    width: 98.7%;
+    margin-left: -0.2em;
+    margin-top: -0.3em;
+ 
+}
+#image_lage2{
+    width: 80%;
+    margin-top: 29em;
+    margin-left: 3em;
+  
+}
+#image_lage2 img {
+    width: 340px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: -0.8em;
+
+}
+#image_lage2 p{
+    margin-left: -0.3em;
+    width: 99%;
+ 
+}
+.image_petite2{
+    width: 85%;
+    margin-top: 44em;
+    margin-left: 2.3em;
+  
+     
+}
+.image_petite2 p{
+    margin-left: 0.5em;
+    width: 93.3%;
+    margin-top: -0.4em;
+   
+     
+}
+/*footer*/
+footer{
+    width: 96%;
+    height: 30em;
+    display: block;
+    margin-left: 0em;
+    margin-top: 1em;
+ 
+}
+ 
+#apropos{
+    width:  90%;
+    margin-left: 2.5em;
+    margin-top: 2em;
+    
+     
+      
+}
+#apropos h2{
+    text-align: left;
+    font-size: 18px;
+}
+ #apropos a{
+     
+    text-align: left;
+    font-size: 15px;
+} 
+#nos_hebergement{
+    width: 90%;
+    margin-left: 2.5em;
+    margin-top: 2em;
+    
+}
+#nos_hebergement h2{
+    margin-left: -13em;
+    font-size: 18px;
+}
+#nos_hebergement a {
+    margin-right: 10em;
+    text-align: left;
+    font-size: 15px;
+ 
+}
+#assistance{
+    width: 90%;
+    margin-left: 2.5em;
+    margin-top: 2em;
+    
+}
+#assistance h2{
+ 
+margin-left: -15em;
+font-size: 18px;
+}
+ #assistance a{
+    text-align: left;
+    margin-left: 0em;
+    font-size: 15px;
+} 
